@@ -2,17 +2,52 @@
 
 ## 1. [Full Guide](https://archive.ph/Gwofg)
 
-
 ### Month 1: The Big Picture + HTML + CSS
 
 #### How to Learn
-- [ ] [Feynman Technique](https://archive.ph/AOdpk)
-- [ ] [Trunk Method](https://archive.ph/3jYJ3)
-- [ ] [How to Learn Anything](https://archive.ph/wip/KmxKA)
-- [ ] [Free Resources](https://archive.ph/wip/KmxKA) - bookmark
+
+- [x] [Feynman Technique](https://archive.ph/AOdpk)  
+
+*Takeaways: Learn -> turn it into a story -> explain as if to  a child -> fill your own gaps -> repeat*  
+
+*Action: Develop explanations for what I learn, use them with students, refine* 
+
+- [x] [Trunk Method](https://archive.ph/3jYJ3)
+
+*Takeaways: Identify and emphasize the fundamentals, build intermediate concepts and details after*  
+
+*Action: Explicitly incorporate fundamentals in lesson plans*  
+
+- [x] [How to Learn Anything](https://archive.ph/wip/KmxKA)
+
+*Takeaways: Identity, accountability, habit cues, GET SLEEP, learn by doing and teaching*  
+
+*Action: Track sleep habit streak (bedtime routine by 10;45; in bed, lights out, sleep podcast playing by 11pm)*  
+
+- [x] [Free Resources](https://zerotomastery.io/resources/) - bookmark
 
 #### Web and Computing Fundamentals
-- [ ] [ZTM Crash Course Intro](https://www.youtube.com/watch?v=0kS3M8a6kP8&list=RDCMUCt7T2EvYBqvlxNU3fbE4Y7g&index=1) - first 40 minutes
+
+- [x] [ZTM Crash Course Intro](https://www.youtube.com/watch?v=0kS3M8a6kP8&list=RDCMUCt7T2EvYBqvlxNU3fbE4Y7g&index=1) - first 40 minutes
+
+*Takeaways:*
+- Internet backbone diagram @ 13:00
+- WILD diagram of the internet @ 16:30. Network of networks!
+- ```traceroute```
+- Three ways to increase website speed:
+   1. Location of server
+   2. How many trips (request/response)
+   3. Size of files
+- WWW !== The Internet
+  - Internet is the network itself (infrastructure)
+  - WWW is built on top of the internet, a collection of information that uses http as communication protocol (agreed-upon language, of sorts)
+  - Analogy: Internet is bookstore, WWW is the collection of books in the store
+- Old way (early 2000s)
+  - JQuery
+  - LAMP stack (Linux, MySQL, Apache, PHP)
+
+*Action: Recommend this to Phase 1 students. Also try using balsamiq or similar for teaching, very cool!*
+
 - [ ] [Computer Networking Playlist](https://archive.ph/Rl6IH)
 - [ ] [Crash Course: Computer Science](https://archive.ph/tvngn)
 - [ ] [Map of Computer Science](https://archive.ph/qFMgg)
