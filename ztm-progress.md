@@ -22,7 +22,7 @@
 
 *Takeaways: Identity, accountability, habit cues, GET SLEEP, learn by doing and teaching*  
 
-*Action: Track sleep habit streak (bedtime routine by 10;45; in bed, lights out, sleep podcast playing by 11pm)*  
+*Action: Track sleep habit streak (bedtime routine by 10:45; in bed, lights out, sleep podcast playing by 11pm)*  
 
 - [x] [Free Resources](https://zerotomastery.io/resources/) - bookmark
 
@@ -46,7 +46,7 @@
   - JQuery
   - LAMP stack (Linux, MySQL, Apache, PHP)
 
-*Action: Recommend this to Phase 1 students. Also try using balsamiq or similar for teaching, very cool!*
+*Action: Recommend this for Phase 1 students. Also try using balsamiq or similar for teaching, very cool!*
 
 - [ ] [Computer Networking Playlist](https://archive.ph/Rl6IH)
 - [ ] [Crash Course: Computer Science](https://archive.ph/tvngn)
