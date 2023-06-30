@@ -45,6 +45,11 @@
 - Old way (early 2000s)
   - JQuery
   - LAMP stack (Linux, MySQL, Apache, PHP)
+- Network Interface Card / wireless network card: 
+  - connects your motherboard with ethernet or wifi
+- Protocols are rules for communication 
+  - structured interaction analogy
+  - my ELI5 example: barista
 
 *Action: Recommend this to Phase 1 students. Also try using balsamiq or similar for teaching, very cool!*
 
