@@ -49,6 +49,13 @@
 *Action: Recommend this for Phase 1 students. Also try using balsamiq or similar for teaching, very cool!*
 
 - [ ] [Computer Networking Playlist](https://archive.ph/Rl6IH)
+
+*Takeaways:* 
+  - Networks classifiable by size:
+    - LAN (Local Area Network): Same building, usually; wires and wireless
+    - MAN (Metropolitan Area Network): Size of city, roughly; hospitals, colleges, that want to share data across buildings directly; copper wires, wifi, fiber-optic
+    - WAN (Wide Area Network): Made of multiple MANs; > 30 mile span; examples phone company, Internet; uses satellite, fiber-optic, copper or telephone wires
+  
 - [ ] [Crash Course: Computer Science](https://archive.ph/tvngn)
 - [ ] [Map of Computer Science](https://archive.ph/qFMgg)
 - [ ] [Real Web Developer Roadmap](https://archive.ph/jdzZs)
