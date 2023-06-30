@@ -45,21 +45,21 @@
 - Old way (early 2000s)
   - JQuery
   - LAMP stack (Linux, MySQL, Apache, PHP)
-- Network Interface Card / wireless network card: 
-  - connects your motherboard with ethernet or wifi
-- Protocols are rules for communication 
-  - structured interaction analogy
-  - my ELI5 example: barista
 
 *Action: Recommend this for Phase 1 students. Also try using balsamiq or similar for teaching, very cool!*
 
 - [ ] [Computer Networking Playlist](https://archive.ph/Rl6IH)
 
 *Takeaways:* 
-  - Networks classifiable by size:
+- Networks classifiable by size
     - LAN (Local Area Network): Same building, usually; wires and wireless
     - MAN (Metropolitan Area Network): Size of city, roughly; e.g. hospitals, colleges, that want to share data across buildings directly; copper wires, wifi, fiber-optic
     - WAN (Wide Area Network): Made of multiple MANs; > 30 mile span; e.g. phone company, Internet; uses satellite, fiber-optic, copper or telephone wires
+- Network Interface Card / wireless network card
+  - connects your motherboard with ethernet or wifi
+- Protocols are rules for communication 
+  - structured interaction analogy
+  - my ELI5 example: barista
   
 - [ ] [Crash Course: Computer Science](https://archive.ph/tvngn)
 - [ ] [Map of Computer Science](https://archive.ph/qFMgg)
