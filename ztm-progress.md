@@ -50,7 +50,7 @@
 
 - [ ] [Computer Networking Playlist](https://archive.ph/Rl6IH)
 
-*Takeaways:* 
+*Takeaways:* ```pushd``` *and* ```popd``` *for stack navigation*
 - Networks classifiable by size
     - LAN (Local Area Network): Same building, usually; wires and wireless
     - MAN (Metropolitan Area Network): Size of city, roughly; e.g. hospitals, colleges, that want to share data across buildings directly; copper wires, wifi, fiber-optic
@@ -65,7 +65,8 @@
 - [ ] [Map of Computer Science](https://archive.ph/qFMgg)
 - [ ] [Real Web Developer Roadmap](https://archive.ph/jdzZs)
 - [ ] [Harvard CS50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
-- [ ] [Command Line Crash Course](https://archive.ph/Acwd7)
+- [x] [Command Line Crash Course](https://archive.ph/Acwd7)
+*Takeaway:*
 - [ ] [How to Build a Website](https://www.youtube.com/watch?v=tq7dqdHCc7U&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc)
 
 #### Front End Basics: HTML and CSS
