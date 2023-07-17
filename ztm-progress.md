@@ -48,7 +48,9 @@
 
 *Action: Recommend this for Phase 1 students. Also try using balsamiq or similar for teaching, very cool!*
 
-- [ ] [Computer Networking Playlist](https://archive.ph/Rl6IH)
+- [x] [Computer Networking Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBpuvPW0aHa7mKdn_k9SPKO)
+
+Can't bring myself to finish this one, tbh. Not a fan of the delivery—overly casual and slow to get to the point—and also it has some ~*fun sexism*~ sprinkled throughout?? (Maybe I'll edit this critique one day to make it more constructive, but for now I'm salty.) Going to just look at the Wikipedia articles for each topic to get an overview. 
 
 *Takeaways:* ```pushd``` *and* ```popd``` *for stack navigation*
 - Networks classifiable by size
@@ -61,7 +63,45 @@
   - structured interaction analogy
   - my ELI5 example: barista
   
-- [ ] [Crash Course: Computer Science](https://archive.ph/tvngn)
+- [ ] [Crash Course: Computer Science](https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a)
+
+Fantastic resource. Something to model my teaching and material prep after, especially the animations. (I mean, it's PBS, so of course the production value is high.)
+
+*Takeaways:*
+- Computer science != computing
+- "Computing" defined differently in different countries
+- Fundamentally, computers are simple. They just do the simple thing MANY times, REALLY fast, through many layers of abstraction
+- On/off switches (like faucet): two electrodes, one control wire
+- mechanical relays --> triode vacuum tubes (1906) --> transistors (1947)
+- Transistors use semiconductor as switch, same on/off flow concept
+- !! Binary only switches between two extreme states "as far apart as possible": clearer signal, less disturbed by interference!!
+- Boolean Algebra: only two values (TRUE, FALSE) and three operators (NOT, AND, OR)
+- Logic gates
+  - NOT places output before the transistor; when on, diverts flow to ground and away from output
+  - AND: two inputs wired in series
+  - OR: two inputs wired in parallel
+  - XOR (exclusive or): if *only one* of the two is true
+- ALU: Arithmetic and Logic Unit
+  - Handles numeric computations
+    - Built from logic gates (so many omg)
+    - Arithmetic Unit
+    - Handles numerical operations
+    - Add, subtract, increment, etc
+  - Logic Unit
+    - Handles true/false
+- Registers and RAM:
+  - Building a 1-bit memory storage circuit
+    - Circuits that loop back on themselves create indempotent gates
+    - Self-referential OR is always 1
+    - Self-referential AND is always 0
+    - Put them together and you can store information and toggle 0/1
+    - This is an AND/OR latch
+    - Gated Latch: Improved AND/OR latch with data input wire and write-enable wire
+  - Register
+    - A group of latches that work together to store multiple bits of information (e.g. 8-bit, 32-bit, etc)
+    
+
+ 
 - [ ] [Map of Computer Science](https://archive.ph/qFMgg)
 - [ ] [Real Web Developer Roadmap](https://archive.ph/jdzZs)
 - [ ] [Harvard CS50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
