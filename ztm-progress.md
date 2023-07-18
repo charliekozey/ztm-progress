@@ -52,7 +52,6 @@
 
 Can't bring myself to finish this one, tbh. Not a fan of the delivery—overly casual and slow to get to the point—and also it has some ~*fun sexism*~ sprinkled throughout?? (Maybe I'll edit this critique one day to make it more constructive, but for now I'm salty.) Going to just look at the Wikipedia articles for each topic to get an overview. 
 
-*Takeaways:* ```pushd``` *and* ```popd``` *for stack navigation*
 - Networks classifiable by size
     - LAN (Local Area Network): Same building, usually; wires and wireless
     - MAN (Metropolitan Area Network): Size of city, roughly; e.g. hospitals, colleges, that want to share data across buildings directly; copper wires, wifi, fiber-optic
@@ -74,8 +73,8 @@ Fantastic resource. Something to model my teaching and material prep after, espe
 - On/off switches (like faucet): two electrodes, one control wire
 - mechanical relays --> triode vacuum tubes (1906) --> transistors (1947)
 - Transistors use semiconductor as switch, same on/off flow concept
-- !! Binary only switches between two extreme states "as far apart as possible": clearer signal, less disturbed by interference!!
-- Boolean Algebra: only two values (TRUE, FALSE) and three operators (NOT, AND, OR)
+- !! Binary only switches between two extreme states "as far apart as possible": clearer signal, less disturbed by interference (as opposed to ternary, quinary)
+- Boolean Algebra: only two values (TRUE, FALSE) and three fundamental operators (NOT, AND, OR)
 - Logic gates
   - NOT places output before the transistor; when on, diverts flow to ground and away from output
   - AND: two inputs wired in series
@@ -98,15 +97,41 @@ Fantastic resource. Something to model my teaching and material prep after, espe
     - This is an AND/OR latch
     - Gated Latch: Improved AND/OR latch with data input wire and write-enable wire
   - Register
+    - Small linear chunk of memory
     - A group of latches that work together to store multiple bits of information (e.g. 8-bit, 32-bit, etc)
-    
-
+- CPU
+  - Phases of operation: fetch, decode, execute
+  - Controlled by Control Unit (like orchestra conductor)
+  - Fetch - decode - execute cycle moved along by clock
+- Instructions
+  - Every CPU has a list of instructions corresponding to a binary code (opcode)
+  - Intel 4004 had 46; today's CPUs have thousands
+  - The lists keep getting bigger bc need to be backwards compatible
+- CPU Cache
+  - RAM module lives outside CPU, connected by a bus (set of wires)
+  - Transaction times add up
+  - Problem addressed with CPU cache: a small (kb/mb) amount of memory right on CPU
+  - RAM sends a chunk of data at a time rather than one at a time, saves time
+  - Dirty bit: marks that the cache has been modified, so it writes data back to RAM before loading new data
+  - Cache hit/cache miss
+  - Also used as scratch space to store intermediate calculations
+  - Can use instruction pipeline *parallelization* to save time (washer/dryer analogy)
+  - To prevent conflicts (e.g. fetch something that's about to be changed on execution), CPUs use lookaheads for data dependencies and out-of order execution
+  - Lots more cool things
+  - Speed measured in flops: FLoating point math OPerations
+- Assembly languages
+  - have direct 1-to-1 mapping to machine instructions
+    - Assembler: a program written in binary that translates assembly language e.g. "LOAD_A 14" to binary operation
+    - Compiler: Translates source code into assembly or machine instructions
+    - 1st compiler invented by Grace Hopper in 1952
+  
+   
  
 - [ ] [Map of Computer Science](https://archive.ph/qFMgg)
 - [ ] [Real Web Developer Roadmap](https://archive.ph/jdzZs)
 - [ ] [Harvard CS50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
-- [x] [Command Line Crash Course](https://archive.ph/Acwd7)
-*Takeaway:*
+- [x] [Command Line Crash Course](https://archive.ph/Acwd7)  
+*Takeaways:* ```pushd``` *and* ```popd``` *for stack navigation*
 - [ ] [How to Build a Website](https://www.youtube.com/watch?v=tq7dqdHCc7U&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc)
 
 #### Front End Basics: HTML and CSS
